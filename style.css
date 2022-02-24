@@ -1,0 +1,47 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@100&display=swap');
+</style>
+
+/* *{} target everything on the page */
+
+h1{color:whitesmoke;font-size:120px;background-color:aquamarine}
+h2{color:lightseagreen;font-size:40px}
+
+body{
+    color:slategray;
+    font-size:20px;
+    font-family: 'Roboto Serif', sans-serif;
+
+    background-color:whitesmoke;
+}
+
+
+/* .start{background-color:whitesmoke}
+.center{text-align:center} */
+
+/* #id{} target a unique item on the page */
+
+img{width:50%}
+
+/* rgb(0,0,0,0.3) */
+/* within body --> background-image:url("background.jpeg") */
+
+.container{display:flex;}
+
+#navbar{
+    background-color:aquamarine;
+    height:100px;
+
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+#navbar a {
+    color:slategray;
+    text-decoration:none;
+    font-size:30px;
+    font-weight:700
+}
+
+#navbar a:hover {color:goldenrod}
